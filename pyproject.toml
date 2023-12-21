@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "json-form-evaluation"
+version = "0.1.0"
+description = "Evaluate JSON forms"
+authors = ["BasCoding"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "json_form_evaluation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.0"
+isort = "^5.13.2"
+autoflake = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
