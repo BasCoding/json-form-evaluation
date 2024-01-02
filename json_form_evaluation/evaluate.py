@@ -4,8 +4,6 @@ import logging
 import os
 import re
 
-import numpy
-
 log = logging.getLogger("json_form_evaluation")
 
 
