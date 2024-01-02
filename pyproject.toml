@@ -9,7 +9,6 @@ packages = [{include = "json_form_evaluation"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-numpy = "^1.26.2"
 
 
 [tool.poetry.group.dev.dependencies]
